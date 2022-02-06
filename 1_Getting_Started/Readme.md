@@ -20,4 +20,7 @@ The application will start on port 3000
 
 `http://localhost:3000`
 
+---
+Reference: https://docs.nestjs.com
+
 Ready!

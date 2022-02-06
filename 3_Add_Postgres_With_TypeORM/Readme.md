@@ -1,5 +1,7 @@
 ### Add Postgres with TypeORM
 
+`/* docker-composer.yml */`
+
     version: "3"
     services:
       db:
