@@ -27,15 +27,12 @@ It reduces the code when an update dto and create dto are the same but optionals
 
 i.e:
 
-
-`import { PartialType } from '@nestjs/mapped-types';`
-
-`import { CreateCoffeeDto } from './create-coffee.dto';`
-
-`export class UpdateCoffeeDto extends PartialType(CreateCoffeeDto) {}`
+    import { PartialType } from '@nestjs/mapped-types';
+    import { CreateCoffeeDto } from './create-coffee.dto';
+    export class UpdateCoffeeDto extends PartialType(CreateCoffeeDto) {}
 
 _____________________
-###General Schema
+###General Workflow
 
 1.- Create a module
 
@@ -43,7 +40,7 @@ _____________________
 
 3.- Create a Service
 
-4.- User your Service within your Controller
+4.- Use your Service within your Controller
 
 5.- Using DOTs is a best practice
 
