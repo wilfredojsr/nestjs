@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@nestjs/config": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/hapi__joi": "^17.1.8"
+  }
+}
