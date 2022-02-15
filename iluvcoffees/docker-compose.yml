@@ -15,7 +15,6 @@ services:
       POSTGRES_PASSWORD: pass123
   db-mongo:
     image: mongo
-    restart: always
     ports:
       - 27017:27017
     environment:
